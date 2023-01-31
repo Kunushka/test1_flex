@@ -1,0 +1,90 @@
+footer {
+    padding-top: 125px;
+
+    h2 {
+        padding-bottom: 20px;
+    }
+
+    .lorem {
+        padding-bottom: 85px;
+    }
+
+    .agree-policy {
+        width: 420px;
+        height: auto;
+        margin: 0 auto;
+
+        .agree {
+            margin: 0 auto;
+            border: 1px solid #4B4136;
+            padding: 15px 0;
+            font-size: 14px;
+        }
+
+        .policy {
+            float: right;
+            color: #FFAE2B;
+        }
+    }
+}
+
+.social {
+    padding-top: 65px;
+
+    .icons {
+        .icon-fb {
+            border: 1px solid #4B4136;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .icon-tw {
+            border: 1px solid #4B4136;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .icon-inst {
+            border: 1px solid #4B4136;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .icon-in {
+            border: 1px solid #4B4136;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+        }
+    }
+}
+
+.line {
+    border-top: 1px solid #4B4136;
+    margin-top: 43px;
+
+    .webflow {
+        float: left;
+
+        span {
+            color: #FFAE2B;
+        }
+    }
+
+    .lin {
+        float: right;
+    }
+
+    a {
+        text-decoration: none;
+        color: #FFAE2B;
+
+        &:hover {
+            color: #ACA592;
+            cursor: pointer;
+        }
+    }
+}

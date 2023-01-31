@@ -1,0 +1,34 @@
+.content-top {
+    nav {
+        padding: 25px 0;
+        text-align: left;
+    }
+
+    .logo {
+        display: inline-block;
+
+        a {
+            font-size: 22px;
+            line-height: 28px;
+            text-decoration: none;
+            color: #FFAE2B;
+        }
+    }
+
+    ul {
+        display: inline-block;
+        font-size: 12px;
+        line-height: 24px;
+
+        li {
+            text-align: left;
+            display: inline-block;
+            margin-left: 40px;
+
+            &:hover {
+                color: #FFAE2B;
+                cursor: pointer;
+            }
+        }
+    }
+}

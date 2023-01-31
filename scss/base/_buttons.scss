@@ -1,0 +1,47 @@
+button {
+    margin: 0 auto;
+    background-color: #FFAE2B;
+    color: #181511;
+
+    :hover {
+        opacity: 0.8;
+    }
+}
+
+.button-nav {
+    float: right;
+    border: 1px solid #FFAE2B;
+    background-color: #181511;
+    color: #FFAE2B;
+    padding: 15px 25px;
+}
+
+.button-content {
+    border: 1px solid #FFAE2B;
+    padding: 13px 23px;
+    left: 440px;
+    bottom: 330px;
+}
+
+.button-inst {
+    padding: 15px 25px;
+    border: 1px solid #FFAE2B;
+}
+
+.button-subscribe {
+    width: 420px;
+    height: 50px;
+    padding: 15px 170px;
+    border: 1px solid #FFAE2B;
+    font-size: 14px;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+button,
+input[type="submit"] {
+    cursor: pointer;
+}
