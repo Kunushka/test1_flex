@@ -438,7 +438,8 @@ input[type=submit] {
 }
 
 .content {
-  background: url(/img/image_back.jpg) center center/cover no-repeat;
+  background: url(../img/image_back.jpg) 50% no-repeat;
+  background-size: cover;
   min-width: 600px;
   padding: 100px;
 }
