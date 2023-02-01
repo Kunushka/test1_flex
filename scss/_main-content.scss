@@ -28,6 +28,10 @@
             width: 24%;
             border: 1px solid #4B4136;
             padding: 40px 40px 20px 40px;
+
+            img {
+                box-shadow: 15px 15px 30px #0000005f, -15px -15px 30px #0000005f;
+            }
         }
 
         .portfolio2 {
@@ -37,6 +41,10 @@
             padding: 40px 40px 20px 40px;
             margin: 0px 20px;
             margin-bottom: 20px;
+
+            img {
+                box-shadow: 15px 15px 30px #0000005f, -15px -15px 30px #0000005f;
+            }
         }
 
         .portfolio3 {
@@ -44,17 +52,23 @@
             width: 24%;
             border: 1px solid #4B4136;
             padding: 40px 40px 20px 40px;
+
+            img {
+                box-shadow: 15px 15px 30px #0000005f, -15px -15px 30px #0000005f;
+            }
         }
     }
 
     img {
-        box-shadow: 15px 15px 30px #0000005f, -15px -15px 30px #0000005f;
+        // box-shadow: 15px 15px 30px #0000005f, -15px -15px 30px #0000005f;
+   
     }
 }
 
 .template-image {
     width: 100%;
     padding-top: 120px;
+    box-shadow: none;
 }
 
 .services {

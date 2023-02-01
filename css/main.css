@@ -460,6 +460,9 @@ input[type=submit] {
   border: 1px solid #4B4136;
   padding: 40px 40px 20px 40px;
 }
+.template .template-sec .portfolio1 img {
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3725490196), -15px -15px 30px rgba(0, 0, 0, 0.3725490196);
+}
 .template .template-sec .portfolio2 {
   display: inline-block;
   width: 24%;
@@ -468,19 +471,22 @@ input[type=submit] {
   margin: 0px 20px;
   margin-bottom: 20px;
 }
+.template .template-sec .portfolio2 img {
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3725490196), -15px -15px 30px rgba(0, 0, 0, 0.3725490196);
+}
 .template .template-sec .portfolio3 {
   display: inline-block;
   width: 24%;
   border: 1px solid #4B4136;
   padding: 40px 40px 20px 40px;
 }
-.template img {
+.template .template-sec .portfolio3 img {
   box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3725490196), -15px -15px 30px rgba(0, 0, 0, 0.3725490196);
 }
-
 .template-image {
   width: 100%;
   padding-top: 120px;
+  box-shadow: none;
 }
 
 .services {
