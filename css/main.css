@@ -474,6 +474,9 @@ input[type=submit] {
   border: 1px solid #4B4136;
   padding: 40px 40px 20px 40px;
 }
+.template img {
+  filter: drop-shadow(0px 8px 24px rgba(0, 0, 0, 0.6));
+}
 
 .template-image {
   width: 100%;
