@@ -487,7 +487,6 @@ input[type=submit] {
 .template-image {
   width: 100%;
   padding-top: 120px;
-  box-shadow: none;
 }
 
 .services {
