@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Roboto&display=swap");
 
+* {
+    box-sizing: border-box;
+}
+
 body {
+    padding: 0;
     font-family: 'Old Standard TT', serif;
     background-color: #181511;
     color: #ACA592;
@@ -8,6 +13,7 @@ body {
     font-size: 12px;
     line-height: 26px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 ul, li {
@@ -22,6 +28,7 @@ h1 {
     font-weight: 400;
     text-align: center;
     color: #FFFFFF;
+    text-transform: none;
 }
 
 h2 {
@@ -31,8 +38,8 @@ h2 {
     text-align: center;
     color: #FFAE2B;
     padding-bottom: 60px;
-    padding-top: 10px;
     margin: 0 auto;
+    text-transform: none;
 }
 
 h3 {
@@ -40,6 +47,7 @@ h3 {
     font-size: 29px;
     line-height: 40px;
     color: #FFAE2B;
+    text-transform: none;
 }
 
 h4 {
@@ -47,4 +55,7 @@ h4 {
     font-size: 15px;
     line-height: 26px;
     color: #ACA592;
+    text-transform: none;
 }
+
+

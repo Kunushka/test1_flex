@@ -2,6 +2,7 @@ button {
     margin: 0 auto;
     background-color: #FFAE2B;
     color: #181511;
+    text-transform: uppercase;
 
     :hover {
         opacity: 0.8;
@@ -9,14 +10,13 @@ button {
 }
 
 .button-nav {
-    float: right;
     border: 1px solid #FFAE2B;
-    background-color: #181511;
+    background-color: transparent;
     color: #FFAE2B;
     padding: 15px 25px;
 }
 
-.button-content {
+.button-hero {
     border: 1px solid #FFAE2B;
     padding: 13px 23px;
     left: 440px;
@@ -34,6 +34,7 @@ button {
     padding: 15px 170px;
     border: 1px solid #FFAE2B;
     font-size: 14px;
+    text-transform: none;
 }
 
 input:focus,

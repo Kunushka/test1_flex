@@ -1,61 +1,52 @@
-footer {
-    padding-top: 125px;
+.footer-bcontainer {
+    padding-bottom: 43px;
+    border-bottom: 1px solid #4B4136;
+    display: flex;
+    justify-content: space-between;
 
-    h2 {
-        padding-bottom: 20px;
-    }
-
-    .lorem {
-        padding-bottom: 85px;
-    }
-
-    .agree-policy {
-        width: 420px;
-        height: auto;
+    .footer-lcontainer {
+        max-width: 580px;
+        display: flex;
+        flex-direction: column;
         margin: 0 auto;
+        text-transform: none;
+        letter-spacing: normal;
 
-        .agree {
+        h2 {
+            padding: 0;
+        }
+
+        .lorem {
+            padding-bottom: 70px;
+        }
+
+        .agree-policy {
             margin: 0 auto;
-            border: 1px solid #4B4136;
-            padding: 15px 0;
-            font-size: 14px;
+            width: 420px;
+
+            .agree-btn {
+                height: 50px;
+                border: 1px solid #4B4136;
+                text-align: center;
+            }
         }
 
         .policy {
-            float: right;
+            display: flex;
+            justify-content: end;
             color: #FFAE2B;
+            font-size: 14px;
         }
     }
-}
-
-.social {
-    padding-top: 65px;
 
     .icons {
-        .icon-fb {
-            border: 1px solid #4B4136;
-            text-align: center;
-            padding: 10px;
-            margin: 5px;
-        }
+        max-width: 216px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
 
-        .icon-tw {
+        .icon {
             border: 1px solid #4B4136;
-            text-align: center;
-            padding: 10px;
-            margin: 5px;
-        }
-
-        .icon-inst {
-            border: 1px solid #4B4136;
-            text-align: center;
-            padding: 10px;
-            margin: 5px;
-        }
-
-        .icon-in {
-            border: 1px solid #4B4136;
-            text-align: center;
             padding: 10px;
             margin: 5px;
         }
@@ -63,24 +54,23 @@ footer {
 }
 
 .line {
-    border-top: 1px solid #4B4136;
-    margin-top: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-    .webflow {
-        float: left;
-
-        span {
-            color: #FFAE2B;
-        }
+    p {
+        // display: inline-block;
+        text-transform: none;
     }
 
-    .lin {
-        float: right;
+    span {
+        color: #FFAE2B;
     }
 
     a {
         text-decoration: none;
         color: #FFAE2B;
+        text-transform: none;
 
         &:hover {
             color: #ACA592;
