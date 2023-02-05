@@ -29,6 +29,10 @@ h1 {
     text-align: center;
     color: #FFFFFF;
     text-transform: none;
+
+    @media (max-width: 810px) {
+        font-size: 40px;
+    }
 }
 
 h2 {
@@ -57,5 +61,3 @@ h4 {
     color: #ACA592;
     text-transform: none;
 }
-
-

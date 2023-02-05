@@ -29,6 +29,10 @@
                 border: 1px solid #4B4136;
                 text-align: center;
             }
+
+            @media (max-width: 460px) {
+                width: 90%;
+                margin: 0 10px;            }
         }
 
         .policy {

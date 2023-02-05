@@ -1,7 +1,6 @@
 .hero {
     display: flex;
     background: url(../img/image_back.jpg) no-repeat center;
-    min-width: 1280px;
 
     .hero-container {
         display: flex;
@@ -55,6 +54,11 @@
 .services {
     padding-bottom: 115px;
 
+    .services-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     p {
         letter-spacing: 2px;
     }
@@ -80,12 +84,19 @@
     padding-bottom: 120px;
 
     .follow {
+        flex-wrap: wrap;
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        justify-content: center;
         padding: 22px 0;
         border-top: 1px solid #4B4136;
         border-bottom: 1px solid #4B4136;
+
+        .foolow-block {}
+
+        .social-media {
+            margin: 25px 50px;
+        }
 
         .folow-text {
             line-height: 50px;
